@@ -13,9 +13,9 @@
     }
 
     :root {
-      --accent: #7E9CEC;
-      --accent-soft: rgba(122, 101, 219, 0.2);
-      --accent-strong: rgba(122, 101, 219, 0.36);
+      --accent: #ffc0cb;
+      --accent-soft: rgba(255, 192, 203, 0.2);
+      --accent-strong: rgba(255, 192, 203, 0.36);
       --black: #000000;
       --white: #ffffff;
       --muted: rgba(255, 255, 255, 0.72);
@@ -32,7 +32,7 @@
       margin: 0;
       padding: 0;
       background:
-        radial-gradient(circle at top, rgba(122, 101, 219, 0.28), transparent 42%),
+        radial-gradient(circle at top, rgba(255, 192, 203, 0.28), transparent 42%),
         linear-gradient(180deg, #111111 0%, #000000 100%);
       font-family: 'segui-emj', 'Segoe UI', sans-serif;
       color: var(--white);
@@ -44,7 +44,7 @@
       overflow: hidden;
       border: 1px solid rgba(255, 255, 255, 0.08);
       background:
-        linear-gradient(160deg, rgba(122, 101, 219, 0.22) 0%, rgba(122, 101, 219, 0.05) 30%, rgba(0, 0, 0, 0.97) 100%);
+        linear-gradient(160deg, rgba(255, 192, 203, 0.22) 0%, rgba(255, 192, 203, 0.05) 30%, rgba(0, 0, 0, 0.97) 100%);
       box-shadow:
         0 22px 48px rgba(0, 0, 0, 0.52),
         inset 0 1px 0 rgba(255, 255, 255, 0.06);
@@ -56,7 +56,7 @@
       inset: 0;
       background:
         linear-gradient(135deg, rgba(255, 255, 255, 0.05), transparent 24%),
-        linear-gradient(180deg, transparent, rgba(122, 101, 219, 0.12));
+        linear-gradient(180deg, transparent, rgba(255, 192, 203, 0.12));
       pointer-events: none;
     }
 
@@ -77,7 +77,7 @@
       right: 22px;
       bottom: 0;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(122, 101, 219, 0.9), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255, 192, 203, 0.9), transparent);
     }
 
     .header-content {
@@ -125,7 +125,7 @@
       border: 1px solid rgba(255, 255, 255, 0.08);
       background: rgba(255, 255, 255, 0.05);
       box-shadow:
-        0 12px 26px rgba(122, 101, 219, 0.2),
+        0 12px 26px rgba(255, 192, 203, 0.2),
         inset 0 1px 0 rgba(255, 255, 255, 0.08);
     }
 
@@ -145,7 +145,7 @@
       gap: 16px;
       margin-top: 12px;
       padding: 12px;
-      border: 1px solid rgba(122, 101, 219, 0.34);
+      border: 1px solid rgba(255, 192, 203, 0.34);
       border-radius: 18px;
       overflow: hidden;
       background-color: rgba(255, 255, 255, 0.04);
@@ -270,7 +270,7 @@
       for (const dlc of dlcList) {
         const dom = document.createElement('div');
         dom.className = 'dlc-box';
-        dom.style.backgroundImage = `linear-gradient(90deg, rgba(0, 0, 0, 0.82), rgba(122, 101, 219, 0.24)), url('${dlc.backgroundImageUrl}')`;
+        dom.style.backgroundImage = `linear-gradient(90deg, rgba(0, 0, 0, 0.82), rgba(255, 192, 203, 0.24)), url('${dlc.backgroundImageUrl}')`;
 
         let priceDiscountDom = '';
         if (dlc.discount > 0) {

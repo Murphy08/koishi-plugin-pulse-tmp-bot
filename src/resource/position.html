@@ -16,7 +16,7 @@
     }
 
     :root {
-      --accent: #7E9CEC;
+      --accent: #ffc0cb;
       --white: #ffffff;
       --muted: rgba(255, 255, 255, 0.72);
       --line: rgba(255, 255, 255, 0.12);
@@ -30,7 +30,7 @@
       margin: 0;
       padding: 0;
       background:
-        radial-gradient(circle at top, rgba(122, 101, 219, 0.28), transparent 42%),
+        radial-gradient(circle at top, rgba(255, 192, 203, 0.28), transparent 42%),
         linear-gradient(180deg, #111111 0%, #000000 100%);
       font-family: 'segui-emj', 'Segoe UI', sans-serif;
       color: var(--white);
@@ -43,7 +43,7 @@
       overflow: hidden;
       border: 1px solid rgba(255, 255, 255, 0.08);
       background:
-        linear-gradient(160deg, rgba(122, 101, 219, 0.2) 0%, rgba(122, 101, 219, 0.05) 28%, rgba(0, 0, 0, 0.97) 100%);
+        linear-gradient(160deg, rgba(255, 192, 203, 0.2) 0%, rgba(255, 192, 203, 0.05) 28%, rgba(0, 0, 0, 0.97) 100%);
       box-shadow:
         0 22px 48px rgba(0, 0, 0, 0.52),
         inset 0 1px 0 rgba(255, 255, 255, 0.06);
@@ -55,7 +55,7 @@
       inset: 0;
       background:
         linear-gradient(135deg, rgba(255, 255, 255, 0.05), transparent 24%),
-        linear-gradient(180deg, transparent, rgba(122, 101, 219, 0.12));
+        linear-gradient(180deg, transparent, rgba(255, 192, 203, 0.12));
       pointer-events: none;
       z-index: 2;
     }
@@ -123,7 +123,7 @@
       border: 1px solid rgba(255, 255, 255, 0.08);
       background: rgba(255, 255, 255, 0.05);
       box-shadow:
-        0 12px 26px rgba(122, 101, 219, 0.2),
+        0 12px 26px rgba(255, 192, 203, 0.2),
         inset 0 1px 0 rgba(255, 255, 255, 0.08);
     }
 
@@ -232,7 +232,7 @@
     }
     .player-arrow { width: 24px; height: 24px; display:flex; align-items:center; justify-content:center; filter: drop-shadow(0 2px 4px rgba(0,0,0,.7)); }
     .player-arrow::before { content:''; display:block; width:0; height:0; border-left:8px solid transparent; border-right:8px solid transparent; border-bottom:20px solid #fff; }
-    .player-arrow.current::before { border-left-width:11px; border-right-width:11px; border-bottom-width:28px; border-bottom-color:#7E9CEC; }
+    .player-arrow.current::before { border-left-width:11px; border-right-width:11px; border-bottom-width:28px; border-bottom-color:#ffc0cb; }
   </style>
 </head>
 <body>
